@@ -415,4 +415,4 @@ This deviation occurs because theoretical calculations assume an ideal MOSFET, w
 
 AC analysis confirms stable mid-band gain and expected high-frequency roll-off due to the output pole.
 
-Overall, the amplifier satisfies biasing, gain, bandwidth, and power specifications.
+Overall, the amplifier satisfies biasing, gain, bandwidth, and power specifications
