@@ -210,4 +210,58 @@ VGp  = VDD - VSG    = 1.2 - 0.64  = 0.56 V
 | Saturation Condition (VDS ≥ Vov) | —            | 0.265 ≥ 0.25    | Satisfied  |
 | PMOS Condition (VSD ≥ Vov)       | —            | 0.735 ≥ 0.25    | Satisfied  |
 
-![image alt]
+![image alt](https://github.com/Dhureen-07/LIC-EXP-1/blob/main/dc%20operating%20point%20.png?raw=true)
+
+**Transient Analysis**
+
+**Input Signal Parameter**
+
+| Parameter   | Value      |
+| ----------- | ---------- |
+| Signal Type | Sinusoidal |
+| Frequency   | 1 kHz      |
+| Amplitude   | 10 mV      |
+| DC Bias     | 0.81 V     |
+
+**Waveform Measurements**
+
+| Signal        | Maximum Voltage | Minimum Voltage | Peak-to-Peak Voltage |
+| ------------- | --------------- | --------------- | -------------------- |
+| Vin (Input)   | 820 mV          | 800 mV          | 20 mV                |
+| Vout (Output) | 565 mV          | 370 mV          | 195 mV               |
+
+
+**Voltage Gain Calculation**
+
+Av = Vout(pp) / Vin(pp)
+
+Av = 195 mV / 20 mV
+
+Av = 9.75 V/V
+
+**Voltage gain in decibels**
+
+Av(dB) = 20 log10(9.75)
+
+Av(dB) = 19.78 dB
+
+**Input Waveform**
+
+Vin = SINE(0.81 V, 10 mV, 1 kHz)
+Input signal centered at 0.81 V with a peak amplitude of 10 mV.
+
+![image alt]()
+
+**Output Waveform**
+
+Vout shows an amplified signal with approximately 195 mV peak-to-peak voltage.
+The waveform is inverted due to the common source configuration.
+
+![image alt](https://github.com/Dhureen-07/LIC-EXP-1/blob/main/c1%20output.png?raw=true)
+
+**Input and Output Waveforms Together**
+
+The output waveform is a phase-inverted amplified version of the input signal.
+Measured gain ≈ 9.75 V/V (≈ 19.78 dB).
+
+![image alt](https://github.com/Dhureen-07/LIC-EXP-1/blob/main/c1%20both%20in%20and%20out.png?raw=true)
